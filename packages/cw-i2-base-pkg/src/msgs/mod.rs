@@ -6,3 +6,5 @@ pub mod execute_msg;
 pub mod instantiate_msg;
 /// Available query messages (read-only, not changing state)
 pub mod query_msg;
+/// Migration, which is used to overwrite this contract
+pub mod migrate_msg;

@@ -24,5 +24,7 @@ pub enum ExecuteMsg {
         fund_limits: Vec<Coin>,
         /// To future-proof, let's allow people to chuck in more info
         extra: Option<Binary>,
+        /// Label for the contract (doesn't affect the salt)
+        label: Option<String>,
     },
 }
